@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hlndlela <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/10 14:44:11 by hlndlela          #+#    #+#             */
+/*   Updated: 2020/07/10 14:44:19 by hlndlela         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 void	ft_putchar(char c);
 
 void	ft_print_reverse_alphabet(void) {
@@ -9,6 +21,4 @@ void	ft_print_reverse_alphabet(void) {
 		ft_putchar(start);
 		start--;
 	}
-}
-
-
+}a
