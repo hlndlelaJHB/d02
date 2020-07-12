@@ -1,26 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hlndlela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/10 14:39:01 by hlndlela          #+#    #+#             */
-/*   Updated: 2020/07/12 10:42:11 by hlndlela         ###   ########.fr       */
+/*   Created: 2020/07/12 09:47:10 by hlndlela          #+#    #+#             */
+/*   Updated: 2020/07/12 10:32:46 by hlndlela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+void	ft_putnbr (int nb) {
 
-void	ft_print_alphabet(void) {
-	char start;
-	char end;
-	start = 'a';
-	end = 'z';
+	ft_putchar (nb) ;
 
-	while (start <= end) {
-		ft_putchar(start);
-		start++;
-	}
 }
-
